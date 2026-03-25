@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-ahp",
+  "version": "0.1.0",
+  "description": "Agent Handoff Protocol — git-versioned memory transfer via Resend or ACPX",
+  "type": "module",
+  "bin": {
+    "ahp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
